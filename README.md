@@ -8,6 +8,7 @@ Requirements
 
 * A web server with PHP
 * A copy of the [TMDb API wrapper from Glamorous](https://github.com/glamorous/TMDb-PHP-API "glamorous/TMDb-PHP-API") placed in the app's root directory. Its GitHub page is linked here. Not currently included due to potential license compatibility issues. 
+* A copy of [html5shiv](https://code.google.com/p/html5shiv/ "html5shiv") placed in the app's root directory. All you need is the "dist/" directory
 
 Setup
 -------
