@@ -1,17 +1,14 @@
-body { background-color: #FCF8DC;
-	   font-family: Verdana, Geneva, sans-serif;
-	   font-weight: normal;
-	   font-style: normal; }
-h1 { text-align : center;
-	 margin : 0em; 
-	 font-family: 'EB Garamond';
-     font-weight: normal;
-     font-style: normal; }
+body {	background-color: #FCF8DC;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	text-align : center;}
+h1 {	margin : 0em; 
+	font-family: 'EB Garamond';
+	font-weight: normal;
+	font-style: normal; }
 
 #title {
 	font-weight: bold;
 }
 
-#reload {
-	text-align : center;
-}
