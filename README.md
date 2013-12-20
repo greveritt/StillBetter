@@ -17,3 +17,4 @@ The installation script is forthcoming, for the time being please follow these s
 
 * Place TMDb.php in the application/libraries directory of this web app
 * Create a file in application/libraries with your TMDb API as its one and only line, and name that file TMDb_API_key.inc.php. Don't have a TMDb API key? Get one [here](https://www.themoviedb.org/account/signup "The Movie Database registration page")
+* Create a config.php file for this CodeIgniter application. See CodeIgniter documentation for details
