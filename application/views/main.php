@@ -10,7 +10,7 @@
 	<![endif]-->
 </head>
 <body>
-	<h1>Still a better love story than <span id="title"><?=$title?></span></h1>
+	<h1>Still a better love story than <span id="title"><?php echo $title?></span></h1>
 	<p>
 	<a href="">Another?</a>
 	</p>
