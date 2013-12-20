@@ -7,11 +7,11 @@ class TmdbModel extends CI_Model {
 	public function getTitle()
 	{
 		// Initialize TMDB library and get TMDB object
-		require_once($_SERVER['DOCUMENT_ROOT'].'/stillbetter/application/libraries/TMDb.php');
+	 	require_once(APPPATH . 'libraries/TMDb.php');
 
 		// Get the API key from an external, one-line text file
-		$keyFile = file($_SERVER['DOCUMENT_ROOT'].'/stillbetter/application/libraries/TMDb_API_key.inc.php');
-		$apiKey = trim($keyFile[0]);
+		$keyFile = file(APPPATH . 'libraries/TMDb_API_key.inc.php');
+		$apiKey = trim($keyFile[1]);
 		// If HTTPS is not being used...
 		if (empty($_SERVER['HTTPS'])) {
 			$tmdb = new TMDb($apiKey);
